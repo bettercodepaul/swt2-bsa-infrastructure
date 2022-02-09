@@ -2,8 +2,7 @@
 
 echo "==> Building angular application..."
 
-frontendProjectName=$(ls "$1")
-frontendProjectDirectory="$1/$frontendProjectName"
+frontendProjectDirectory="$1/bogenliga"
 
 cd $frontendProjectDirectory
 ng build --prod

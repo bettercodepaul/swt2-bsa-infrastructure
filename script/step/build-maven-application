@@ -2,8 +2,7 @@
 
 echo "==> Building maven application..."
 
-backendProjectName=$(ls "$1")
-backendProjectDirectory="$1/$backendProjectName"
+backendProjectDirectory="$1/bogenliga"
 
 cd $backendProjectDirectory
 mvn clean install

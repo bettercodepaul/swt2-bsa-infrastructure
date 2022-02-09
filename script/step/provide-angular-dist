@@ -2,9 +2,7 @@
 
 echo "==> Provide angular application..."
 
-# TODO fix me: do not use ls 
-frontendProjectName=$(ls "$1")
-frontendDistDirectory="$1/$frontendProjectName/dist/$frontendProjectName/*"
+frontendDistDirectory="$1/bogenliga/dist/bogenliga/*"
 
 rm -rf  $2
 [[ -d $2 ]] | mkdir $2

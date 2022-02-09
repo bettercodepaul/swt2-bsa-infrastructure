@@ -2,8 +2,7 @@
 
 echo "==> Installing node packages..."
 
-frontendProjectName=$(ls "$1")
-frontendProjectDirectory="$1/$frontendProjectName"
+frontendProjectDirectory="$1/bogenliga"
 
 cd $frontendProjectDirectory
 npm install
