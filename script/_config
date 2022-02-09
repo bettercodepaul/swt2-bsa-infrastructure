@@ -1,8 +1,8 @@
 ### DEFINE PROJECT CONFIGURATION ###
 
 # Git repositories
-FRONTEND_REPOSITORY="https://github.com/exxcellent/swt2-bsa-frontend.git"
-BACKEND_REPOSITORY="https://github.com/exxcellent/swt2-bsa-backend.git"
+FRONTEND_REPOSITORY="https://github.com/bettercodepaul/swt2-bsa-frontend.git"
+BACKEND_REPOSITORY="https://github.com/bettercodepaul/swt2-bsa-backend.git"
 
 # MAVEN ARTIFACT
 BACKEND_JAR_FILE="bogenliga-application.jar"

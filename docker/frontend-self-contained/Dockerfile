@@ -1,12 +1,12 @@
 #  Create a new image from the base nodejs image
-FROM node:10
+FROM node:12
 
 # Instal http server
 RUN npm i -g http-server
 RUN npm i -g @angular/cli
 
 # Clone Frontend Git Repository
-RUN git clone https://github.com/exxcellent/swt2-bsa-frontend.git
+RUN git clone https://github.com/bettercodepaul/swt2-bsa-frontend.git
 
 WORKDIR /swt2-bsa-frontend/bogenliga
 

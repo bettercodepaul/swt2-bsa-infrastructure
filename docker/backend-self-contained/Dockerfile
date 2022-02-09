@@ -2,7 +2,7 @@
 FROM maven:3.5-jdk-8 AS build  
 
 # Clone Backend Git Repository
-RUN git clone https://github.com/exxcellent/swt2-bsa-backend.git
+RUN git clone https://github.com/bettercodepaul/swt2-bsa-backend.git
 
 # Change in bogenliga file
 WORKDIR /swt2-bsa-backend/bogenliga
