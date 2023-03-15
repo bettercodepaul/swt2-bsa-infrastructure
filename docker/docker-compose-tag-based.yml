@@ -27,7 +27,7 @@ services:
   ## The database starts automatically with Docker
  db:
    container_name: db
-   image: nexus.bcxp.de:8484/bogenliga-db:${DB_VERSION}
+   image: nexus.bcxp.de:8484/bogenliga-db:postgres14
    ports:
      - "5432:5432"
    restart: always
