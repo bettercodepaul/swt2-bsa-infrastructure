@@ -26,7 +26,7 @@ services:
 
   ## The database starts automatically with Docker
  db:
-   container_name: db
+   container_name: swt-db
    image: nexus.bcxp.de:8484/bogenliga-db:postgres14
    ports:
      - "5432:5432"
