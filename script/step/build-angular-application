@@ -1,8 +1,0 @@
-#!/bin/sh
-
-echo "==> Building angular application..."
-
-frontendProjectDirectory="$1/bogenliga"
-
-cd $frontendProjectDirectory
-ng build --prod

@@ -1,8 +1,0 @@
-#!/bin/sh
-
-echo "==> Building maven application..."
-
-backendProjectDirectory="$1/bogenliga"
-
-cd $backendProjectDirectory
-mvn clean install
