@@ -1,6 +1,0 @@
-#!/bin/sh
-
-echo "==> Run flyway clean migrate..."
-
-cd $1
-mvn clean flyway:clean flyway:migrate -PLOCAL

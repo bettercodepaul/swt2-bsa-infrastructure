@@ -1,9 +1,0 @@
-#!/bin/sh
-
-echo "==> Building maven application..."
-
-backendProjectName=$(ls "$1")
-backendProjectDirectory="$1/$backendProjectName"
-
-cd $backendProjectDirectory
-mvn clean install
