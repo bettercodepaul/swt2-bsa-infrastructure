@@ -1,4 +1,6 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:17-oracle
+
+ENV JVM_OPTIONS="--add-opens java.base/java.lang=ALL-UNNAMED"
 
 COPY staging/*.jar /backend.jar
 
