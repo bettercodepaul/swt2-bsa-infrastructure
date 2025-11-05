@@ -1,4 +1,4 @@
-FROM openjdk:17-oracle
+FROM azul/zulu-openjdk:17
 
 COPY staging/*.jar /backend.jar
 
